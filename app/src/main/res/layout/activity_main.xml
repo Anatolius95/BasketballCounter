@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BFBDBB">
+
+    <ImageView
+        android:src="@drawable/basketball"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BFBDBB">
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:background="#BFBDBB"
+            >
+            <TextView
+                android:text="TEAM A"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:text="0"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textSize="50dp"
+                android:textColor="#000000"
+                android:id="@+id/pocitadloA"
+                />
+
+            <Button
+                android:text="+ 2 POINTS"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="#E87216"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:id="@+id/twoA"
+                android:onClick="plusTwoA"
+                />
+
+            <Button
+                android:text="+ 3 POINTS"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="#E87216"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:id="@+id/threeA"
+                android:onClick="plusThreeA"
+                />
+
+            <Button
+                android:text="FREE THROW"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="#E87216"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:id="@+id/freeA"
+                android:onClick="plusFreeA"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:background="#BFBDBB">
+            <TextView
+                android:text="TEAM B"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:text="0"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textSize="50dp"
+                android:textColor="#000000"
+                android:id="@+id/pocitadloB"
+                />
+
+            <Button
+                android:text="+ 2 POINTS"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="#E87216"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:padding="15dp"
+                android:id="@+id/twoB"
+                android:onClick="plusTwoB"
+                />
+
+            <Button
+                android:text="+ 3 POINTS"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="#E87216"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:padding="15dp"
+                android:id="@+id/threeB"
+                android:onClick="plusThreeB"
+                />
+
+            <Button
+                android:text="FREE THROW"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="#E87216"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:padding="10dp"
+                android:id="@+id/freeB"
+                android:onClick="plusFreeB"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:text="RESET"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="#E87216"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:id="@+id/reset"
+        android:onClick="reset"
+        />
+</LinearLayout>
