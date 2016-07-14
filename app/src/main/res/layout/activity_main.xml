@@ -9,7 +9,7 @@
     <ImageView
         android:src="@drawable/basketball"
         android:layout_width="match_parent"
-        android:layout_height="110dp"
+        android:layout_height="100dp"
         android:scaleType="centerCrop" />
 
     <LinearLayout
@@ -39,7 +39,7 @@
             <TextView
                 android:text="0"
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:textSize="50dp"
                 android:textColor="#000000"
@@ -103,7 +103,7 @@
             <TextView
                 android:text="0"
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:textSize="50dp"
                 android:textColor="#000000"
