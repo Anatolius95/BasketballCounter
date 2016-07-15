@@ -8,8 +8,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    int PocitadloA=0;
-    int PocitadloB=0;
+    int PocitadloA = 0;
+    int PocitadloB = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,9 +17,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    protected void color () {
-        TextView pocitadloA = (TextView) findViewById (R.id.pocitadloA);
-        TextView pocitadloB = (TextView) findViewById (R.id.pocitadloB);
+    protected void color() {
+        TextView pocitadloA = (TextView) findViewById(R.id.pocitadloA);
+        TextView pocitadloB = (TextView) findViewById(R.id.pocitadloB);
 
         if (PocitadloA > PocitadloB) {
             pocitadloA.setBackgroundColor(Color.parseColor("#0AAD00"));
@@ -35,43 +35,43 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void plusTwoA (View view) {
+    public void plusTwoA(View view) {
         PocitadloA = PocitadloA + 2;
         displayA(PocitadloA);
         color();
     }
 
-    public void plusThreeA (View view) {
+    public void plusThreeA(View view) {
         PocitadloA = PocitadloA + 3;
         displayA(PocitadloA);
         color();
     }
 
-    public void plusFreeA (View view) {
+    public void plusFreeA(View view) {
         PocitadloA = PocitadloA + 1;
         displayA(PocitadloA);
         color();
     }
 
-    public void plusTwoB (View view) {
+    public void plusTwoB(View view) {
         PocitadloB = PocitadloB + 2;
         displayB(PocitadloB);
         color();
     }
 
-    public void plusThreeB (View view) {
+    public void plusThreeB(View view) {
         PocitadloB = PocitadloB + 3;
         displayB(PocitadloB);
         color();
     }
 
-    public void plusFreeB (View view) {
+    public void plusFreeB(View view) {
         PocitadloB = PocitadloB + 1;
         displayB(PocitadloB);
         color();
     }
 
-    public void reset (View view) {
+    public void reset(View view) {
         PocitadloA = 0;
         PocitadloB = 0;
         displayA(PocitadloA);
